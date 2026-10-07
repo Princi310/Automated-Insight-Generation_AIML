@@ -1,0 +1,13 @@
+insight_id,type,indicator,entity,period,metric,previous_metric,change_pct,severity,explanation
+TR-001,trend,anc_coverage,Ahmedabad,2026-08,69.0,85.0,-18.82,Medium,Ahmedabad anc coverage decreased by 18.8% from 85.0 to 69.0 during 2026-08.
+TR-002,trend,high_risk_cases,Ahmedabad,2026-08,13.0,10.0,30.0,High,Ahmedabad high risk cases increased by 30.0% from 10.0 to 13.0 during 2026-08.
+TR-003,trend,high_risk_cases,Bhavnagar,2026-08,15.0,17.0,-11.76,Medium,Bhavnagar high risk cases decreased by 11.8% from 17.0 to 15.0 during 2026-08.
+TR-004,trend,anc_coverage,Mehsana,2026-08,42.0,84.0,-50.0,High,Mehsana anc coverage decreased by 50.0% from 84.0 to 42.0 during 2026-08.
+TR-005,trend,high_risk_cases,Mehsana,2026-08,28.0,11.0,154.55,High,Mehsana high risk cases increased by 154.5% from 11.0 to 28.0 during 2026-08.
+TR-006,trend,high_risk_cases,Vadodara,2026-08,6.0,7.0,-14.29,Medium,Vadodara high risk cases decreased by 14.3% from 7.0 to 6.0 during 2026-08.
+OUT-001,outlier,anc_coverage,Ahmedabad,2026-08,69.0,,,High,Ahmedabad anc coverage value of 69.0 is below the IQR lower bound of 69.9.
+OUT-002,outlier,anc_coverage,Mehsana,2026-08,42.0,,,High,Mehsana anc coverage value of 42.0 is below the IQR lower bound of 69.9.
+OUT-003,outlier,immunization,Vadodara,2026-08,97.0,,,High,Vadodara immunization value of 97.0 is above the IQR upper bound of 96.0.
+OUT-004,outlier,high_risk_cases,Mehsana,2026-08,28.0,,,High,Mehsana high risk cases value of 28.0 is above the IQR upper bound of 21.4.
+COR-001,correlation,anc_coverage vs high_risk_cases,All Districts,All,-0.933,,,Medium,anc coverage and high risk cases have a negative Pearson correlation of -0.93.
+COR-002,correlation,institutional_delivery vs immunization,All Districts,All,0.979,,,Medium,institutional delivery and immunization have a positive Pearson correlation of 0.98.
